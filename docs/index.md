@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: Start
-      link: /start
+      link: /guides/start
     - theme: alt
       text: Examples
-      link: /examples
+      link: /guides/examples
     - theme: alt
-      text: Docs
-      link: /docs
+      text: Reference
+      link: /ref-index
 
 features:
   - title: Fast automation

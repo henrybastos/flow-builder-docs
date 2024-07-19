@@ -14,11 +14,12 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Start', link: '/start' },
+          { text: 'Start', link: '/guides/start' },
           { 
             text: 'Examples', 
             items: [
-              { text: 'Env Placeholders', link: '/examples/env-placeholders' }
+              { text: 'Env Placeholders', link: '/guides/examples/env-placeholders' },
+              { text: 'XPaths', link: '/guides/examples/xpaths' }
             ]
           }
         ]
@@ -26,10 +27,16 @@ export default defineConfig({
       {
         text: 'Reference',
         items: [
-          { text: 'Summary', link: '/ref-summary' },
-          { text: 'Flows', link: '/flows' },
-          { text: 'Operations', link: '/operations' },
-          { text: 'Payload configuration', link: '/payload-config' }
+          { text: 'Index', link: '/reference/ref-index' },
+          { text: 'Flows', link: '/reference/flows' },
+          { 
+            text: 'Operations', 
+            items: [
+              { text: 'Run Flow For Each', link: '/reference/operations/run-flow-for-each' },
+              { text: 'Evaluate Expression', link: '/reference/operations/eval-expression' }
+            ]
+          },
+          { text: 'Payload configuration', link: '/reference/payload-config' }
         ]
       }
     ],
